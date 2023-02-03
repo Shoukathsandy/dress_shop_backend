@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "dress backend",
   "main": "server.js",
-  "type": "commonjs",
+  
   "engines": {
-    "node": "14.18.0"
+    "node": "14.20.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
