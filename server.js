@@ -23,7 +23,9 @@ app.use("/api/dresses", require("./routes/dressRoute"));
 app.use("/api/users", require("./routes/userRoutes"));
 app.use("/api/orders", require("./routes/orderRoute"));
 
-
+app.get("/",function(req,res){
+  res.send("this is home page for dress app project server..");
+});
 const port = process.env.PORT || 8080;
 app.listen(port, () => {
   console.log(
